@@ -1,0 +1,17 @@
+﻿body {
+    background-image: url(/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hover-card:hover {
+    border-radius: 24px;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card2:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
